@@ -26,7 +26,7 @@ async Task UploadSample()
 {
   //You should have oauth token from Yandex Passport.
   //See https://tech.yandex.ru/oauth/
-  string oauthToken = "<token hear>"
+  string oauthToken = "<token hear>";
 
   // Create a client instance
   IDiskApi diskApi = new DiskHttpApi(oauthToken);
